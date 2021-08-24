@@ -1,0 +1,32 @@
+#sudo su - //to switch to root
+#git --version
+
+
+
+# yum install git
+# git --version
+
+
+
+git add // add files to staging area
+
+
+
+git commit -m "Message" // Write changes to git repository
+git log // history of changes (commits)
+git status // current state of git repository
+git config --global user.name "Name"
+git config --global user.email "name@name.com"
+git config // list all configs
+
+
+
+git branch -M <main>
+git checkout <main> //checkout commit or branch
+git merge feature1 // merging to the master branch
+
+
+
+git remote add origin https://github.com/awscloudengineer/git_first_demo.git
+git branch -M master
+git push -u origin master
